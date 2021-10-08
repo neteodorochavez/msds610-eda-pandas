@@ -1,4 +1,15 @@
-# Exploratory Data Analysis (EDA) using Pandas for the USF Master's in Data Science Program
+# Exploratory Data Analysis (EDA) using Pandas
 Communication for Analytics Group Project
 
-Members: Marti H., Joleena M., Faye P. Nestor T.C. 
+
+# Installation
+
+# Usage 
+
+# The Data 
+
+# 
+
+
+
+# Contributors: Marti Heit, Joleena Marshall, Faye Paye, and Nestor Teodoro Chavez
