@@ -5,15 +5,14 @@ Communication for Analytics Group Project
 ## Goal
 The goal of this project is display how Pandas, a software library written for Python, is a great choice for data manipulation and analysis. Pandas will help you explore, clean, and process your data. In pandas, a data table is referred to as `DataFrame`. 
 
-
-
 ## The Description
+This projects shows the entire process of EDA. Pandas handles data acquisition really well. Pandas is able to import   `xml`,`json`,`csv`,`xls`,and `html`. 
+
+<< fill in >>
 
 ## Getting Started 
 
-Download the [eda-code.ipynb](https://github.com/neteodorochavez/msds610-eda-pandas/blob/main/EDA_code_demo.ipynb). Next, download the [data](https://github.com/neteodorochavez/msds610-eda-pandas/tree/main/data). 
-
-
+Download the [eda-code.ipynb](https://github.com/neteodorochavez/msds610-eda-pandas/blob/main/EDA_code_demo.ipynb). Next, download the [data](https://github.com/neteodorochavez/msds610-eda-pandas/tree/main/data). If you'd like to use other datasets, make sure to add them into the data folder. The filetypes of choice have a wide range.
 
 ## Installation
 
@@ -23,9 +22,21 @@ pip install pandas
 pip install matplotlib
 ```
 
-## The Data 
+# Discussion
+
+## Importing Data 
+
+## Data Exploration
+
+## Preprocessing 
+
+## Research Questions
+
+## Visualization
+
+
 
 ## What's Next? 
 
 
-## Contributors: Marti Heit, Joleena Marshall, Faye Paye, and Nestor Teodoro Chavez
+### Contributors: Marti Heit, Joleena Marshall, Faye Paye, and Nestor Teodoro Chavez
