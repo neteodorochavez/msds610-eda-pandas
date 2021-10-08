@@ -2,14 +2,33 @@
 Communication for Analytics Group Project
 
 
-# Installation
+## Goal
 
-# Usage 
+## The Description
 
-# The Data 
+## Getting Started 
 
-# 
+Download the [starterkit](https://github.com/neteodorochavez/msds610-eda-pandas), which has the following files and structure
+
+```
+$ 
+├── eda-code.ipynb
+├── diamonds.csv
+├── students.json
+└── students.xml
+```
 
 
+## Installation
 
-# Contributors: Marti Heit, Joleena Marshall, Faye Paye, and Nestor Teodoro Chavez
+```
+pip install --upgrade pip
+pip install pandas
+```
+
+## The Data 
+
+## What's Next? 
+
+
+## Contributors: Marti Heit, Joleena Marshall, Faye Paye, and Nestor Teodoro Chavez
