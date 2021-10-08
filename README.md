@@ -7,7 +7,6 @@ The goal of this project is display how Pandas, a software library written for P
 
 
 
-
 ## The Description
 
 ## Getting Started 
