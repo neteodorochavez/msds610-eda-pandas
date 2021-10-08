@@ -8,7 +8,7 @@ Communication for Analytics Group Project
 
 ## Getting Started 
 
-Download the [eda-code.ipynb](https://github.com/neteodorochavez/msds610-eda-pandas/eda). Next, download the [data](https://github.com/neteodorochavez/msds610-eda-pandas/data). 
+Download the [eda-code.ipynb](https://github.com/neteodorochavez/msds610-eda-pandas/eda). Next, download the [data](https://github.com/neteodorochavez/msds610-eda-pandas/tree/main/data). 
 
 
 
