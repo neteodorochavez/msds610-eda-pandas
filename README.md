@@ -8,15 +8,8 @@ Communication for Analytics Group Project
 
 ## Getting Started 
 
-Download the [starterkit](https://github.com/neteodorochavez/msds610-eda-pandas), which has the following files and structure
+Download the [eda-code.ipynb](https://github.com/neteodorochavez/msds610-eda-pandas/eda). Next, download the [data](https://github.com/neteodorochavez/msds610-eda-pandas/data). 
 
-```
-$ 
-├── eda-code.ipynb
-├── diamonds.csv
-├── students.json
-└── students.xml
-```
 
 
 ## Installation
