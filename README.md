@@ -17,6 +17,7 @@ Download the [eda-code.ipynb](https://github.com/neteodorochavez/msds610-eda-pan
 ```
 pip install --upgrade pip
 pip install pandas
+pip install matplotlib
 ```
 
 ## The Data 
