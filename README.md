@@ -10,10 +10,10 @@ Exploratory Data Analysis (EDA) is one of the most important steps in solving da
 <Pandas handles data acquisition really well. Pandas is able to import   `xml`,`json`,`csv`,`xls`,and `html`.>
 
 Here, we will use Pandas to go through the four steps of EDA and explain their significance:
-- 1. Data Acquisition
-- 2. Data Exploration
-- 3. Data Preprocessing
-- 4. Visualization
+1. Data Acquisition
+2. Data Exploration
+3. Data Preprocessing
+4. Visualization
 
 ## Getting Started 
 
