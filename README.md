@@ -41,7 +41,7 @@ To begin EDA, the first step is to acquire the data you need. The internet, and 
 - XML file to a readable data frame using `pd.read_xml(<filepath>)`
 
 <p float="left" align="center">
-  <img width="376" alt="Screen Shot 2021-10-08 at 11 16 31 PM" src="https://user-images.githubusercontent.com/31682057/136646564-f6a20b0b-5e11-4a09-94b4-60e3c5ca4a1b.png">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img width="376" align="center" alt="Screen Shot 2021-10-08 at 11 16 31 PM" src="https://user-images.githubusercontent.com/31682057/136646564-f6a20b0b-5e11-4a09-94b4-60e3c5ca4a1b.png">&nbsp;&nbsp;&nbsp;&nbsp;
   <img width="280" alt="Screen Shot 2021-10-08 at 11 17 55 PM" src="https://user-images.githubusercontent.com/31682057/136646611-7522c99d-1862-4e8b-abda-d17adc36468a.png">
 </p>
 
