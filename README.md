@@ -49,9 +49,13 @@ df_student
 ```
 This gives us the opportunity to create any new row and population it with values. In the above example, we have created a new column represented by `gender` on the DataFrame `df_student`. 
 
+<p float="left">
+  <img src=""/>
+</p>
+
 #### Removing Data 
 
-The process for removal is similar to that of appending with one small change. 
+The process for removal is similar to that of appending with one small change. Although the methodology and syntax is very similar, when removing data from the DataFrame we want to ensure we are deleting the entire column or the entire row. Importance is weighted heavily on the axis parameter within the function call, `.drop(col, axis = 1)`. This allows you to delete columns in the DataFrame. 
 
 #### Indexing Data
 
