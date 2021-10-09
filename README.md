@@ -59,9 +59,8 @@ To begin EDA, the first step is to acquire the data you need. The internet, and 
 
 - CSV file to a data frame using `pd.read_csv(<filepath>)` (This is useful when aggregating with data from other filetypes or to use Pandas to preprocess data)
 <p float="left">
-  <img width="369" align="center" alt="Screen Shot 2021-10-08 at 11 25 16 PM" src="https://user-images.githubusercontent.com/31682057/136646826-1c239b32-c9e3-44be-969c-5af958ccb464.png">&nbsp;&nbsp;
+  <img width="369" alt="Screen Shot 2021-10-08 at 11 25 16 PM" src="https://user-images.githubusercontent.com/31682057/136646826-1c239b32-c9e3-44be-969c-5af958ccb464.png">&nbsp;&nbsp;
 <img width="144" alt="Screen Shot 2021-10-08 at 11 25 29 PM" src="https://user-images.githubusercontent.com/31682057/136646834-1ac6ce1c-9f74-4055-a616-38cb0835b02c.png">
-
 </p>
 
 ### <a name="explore">Data Exploration</a> (Marti)
