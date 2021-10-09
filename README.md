@@ -55,8 +55,8 @@ df_student
 This gives us the opportunity to create any new row and population it with values. In the above example, we have created a new column represented by `gender` on the DataFrame `df_student`. 
 
 <p float="left">
-  <img src="figures/df_student.png" width="400"/>
-  <img src="figures/df_student_append.png" width="450"/>
+  <img src="figures/df_student.png" width="375"/>
+  <img src="figures/df_student_append.png" width="425"/>
 </p>
 
 #### Removing Data 
