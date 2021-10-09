@@ -27,6 +27,7 @@ pip install matplotlib
 ### Importing Data 
 
 ### Data Exploration
+## Manipulating Data Frame
 
 ### Preprocessing 
 
@@ -35,10 +36,10 @@ pip install matplotlib
 ### Visualization
 
 <p float="left">
-  <img src="figures/avg_account.jpg" width="290" />
-  <img src="figures/job_freq.jpg" width="300" /> 
-  <img src="figures/salary_hist.jpg" width="300" />
+  <img src="figures/avg_account.jpg" width="270" />
+  <img src="figures/job_freq.jpg" width="250" /> 
+  <img src="figures/salary_hist.jpg" width="250" />
 </p>
 
 
-### What's Next? Nothing
+### What's Next? 
