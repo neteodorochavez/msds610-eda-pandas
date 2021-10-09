@@ -24,11 +24,11 @@ pip install matplotlib
 
 ## Our Process
 
-### Benefits of Pandas Library
+### Benefits of Pandas Library (Joleena)
 
-### Importing Data 
+### Importing Data (Joleena)
 
-### Data Exploration
+### Data Exploration (Marti)
 #### Manipulating Data Frame
 
 ### Preprocessing 
@@ -39,14 +39,14 @@ Preprocessing is the stage in EDA that explores the data and ensures its integri
 The benefit in using Pandas is that it allows one to easily convert data types. This stage is called data manipulation, and its where Pandas really shines. We are able to use functions that are specific to the pandas library to convert from one data type to another without altering the metadata itself. For instance, if a survey was recording birthdays of its users in order to find out, on average, how many users celebrate their birthday during the holiday months. Pandas allows to convert strings in the form of '12-24-2001' into a `datetime` object in order for us to easily extract month, day, or year. Common functionalities such as these are made efficient processes with the help from Pandas. 
 
 #### Appending Data 
-We've seen that data conversion is an important part in cleaning up data. 
+We've seen that data conversion is an important part in cleaning up data.  
 
 #### Removing Data 
 #### Indexing Data
 
 ### Research Questions
 
-### Visualization
+### Visualization (Faye)
 
 <p float="left">
   <img src="figures/avg_account.jpg" width="270" />
