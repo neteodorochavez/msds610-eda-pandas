@@ -35,9 +35,9 @@ pip install matplotlib
 ### Visualization
 
 <p float="left">
-  <img src="figures/avg_account.jpg" width="300" />
-  <img src="figures/job_freq.jpg" width="300" /> 
-  <img src="figures/salary_hist.jpg" width="300" />
+  <img src="figures/avg_account.jpg" width="250" />
+  <img src="figures/job_freq.jpg" width="230" /> 
+  <img src="figures/salary_hist.jpg" width="230" />
 </p>
 
 
