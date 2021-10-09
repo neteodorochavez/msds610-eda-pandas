@@ -27,7 +27,7 @@ pip install matplotlib
 ### Importing Data 
 
 ### Data Exploration
-## Manipulating Data Frame
+#### Manipulating Data Frame
 
 ### Preprocessing 
 
