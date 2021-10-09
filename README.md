@@ -12,7 +12,7 @@ This projects shows the entire process of EDA. Pandas handles data acquisition r
 
 ## Getting Started 
 
-Download the [eda-code.ipynb](https://github.com/neteodorochavez/msds610-eda-pandas/blob/main/EDA_code_demo.ipynb). Next, download the [data](https://github.com/neteodorochavez/msds610-eda-pandas/tree/main/data). If you'd like to use other datasets, make sure to add them into the data folder. The filetypes of choice have a wide range.
+Download the [eda-code.ipynb](https://github.com/neteodorochavez/msds610-eda-pandas/blob/main/EDA-Code.ipynb). Next, download the [data](https://github.com/neteodorochavez/msds610-eda-pandas/tree/main/data). If you'd like to use other datasets, make sure to add them into the data folder. The filetypes of choice have a wide range.
 
 ## Installation
 
@@ -33,15 +33,26 @@ pip install matplotlib
 
 ### Preprocessing 
 
-Preprocessing is the stage in EDA that explores the data and ensures its integrity. In other words, it makes sure that the data is properly formatting in order for the next step to begin. Oftentimes this stage deals with missing or misleading data, creating better features as a combination of information already provided by the dataset, and explores options for making the process of data retrieval more efficient.  
+Preprocessing is the stage in EDA that explores the data and ensures its integrity. In other words, it makes sure that the dataset is properly formatted in order to continue with the next step of the process. Oftentimes this stage deals with missing or misleading data, creating better features (columns) than the ones already provided by the original dataset, and explores options for making the process of data retrieval more efficient.  
 
 #### Converting Data Types
 The benefit in using Pandas is that it allows one to easily convert data types. This stage is called data manipulation, and its where Pandas really shines. We are able to use functions that are specific to the pandas library to convert from one data type to another without altering the metadata itself. For instance, if a survey was recording birthdays of its users in order to find out, on average, how many users celebrate their birthday during the holiday months. Pandas allows to convert strings in the form of '12-24-2001' into a `datetime` object in order for us to easily extract month, day, or year. Common functionalities such as these are made efficient processes with the help from Pandas. 
 
+In the case of missing information, Pandas allows the `.fillna(value)` function that allows us to set all of the `NaN` or missing values to whatever value we desire; typically 0. The importance behind this is seen dramatically when our dataset is minimal. For example, if the dataset we were working with contained 5 observations, getting rid of 1 observation diminishes 20% of the data set. This problem is seen on the same order with large datasets but in order to preserve order with any size of datasets, Pandas lets us do inplace replacement to keep rows that one may otherwise remove entirely. 
+
 #### Appending Data 
-We've seen that data conversion is an important part in cleaning up data.  
+We've seen that data conversion is an important part in cleaning up data. Once we've cleaned up our data it might behoove the user to be able to update the existing table or add in more values that aid in the process of building holistic insights.
+
+```
+df_student['gender'] = ['F', 'F', 'M', 'F', 'M', 'M', 'F', 'F']
+df_student
+```
+This gives us the opportunity to create any new row and population it with values. In the above example, we have created a new column represented by `gender` on the DataFrame `df_student`. 
 
 #### Removing Data 
+
+The process for removal is similar to that of appending with one small change. 
+
 #### Indexing Data
 
 ### Research Questions
