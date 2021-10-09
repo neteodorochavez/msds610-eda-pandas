@@ -1,6 +1,8 @@
 # Exploratory Data Analysis (EDA) using Pandas
-Communication for Analytics Group Project
 
+**By**: Marti Heit, Joleena Marshall, Faye Pei, and Nestor Teodoro Chavez
+
+## Our Goal 
 The goal of this project is display how Pandas, a software library written for Python, is a great choice for data manipulation and analysis. Pandas will help you explore, clean, and process your data. In pandas, a data table is referred to as `DataFrame`. 
 
 ## The Description
@@ -20,21 +22,18 @@ pip install pandas
 pip install matplotlib
 ```
 
-# Discussion
+## Our Process
 
-## Importing Data 
+### Importing Data 
 
-## Data Exploration
+### Data Exploration
 
-## Preprocessing 
+### Preprocessing 
 
-## Research Questions
+### Research Questions
 
-## Visualization
-
-
-
-## What's Next? 
+### Visualization
 
 
-## Contributors: Marti Heit, Joleena Marshall, Faye Paye, and Nestor Teodoro Chavez
+
+### What's Next? 
