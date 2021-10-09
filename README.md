@@ -3,17 +3,17 @@
 **By**: Marti Heit, Joleena Marshall, Faye Pei, and Nestor Teodoro Chavez.
 
 ## Motivation
-Exploratory Data Analysis (EDA) is one of the most important steps in solving data science problems, considering it takes up 90% of what data scientists do day-to-day in their jobs. With a multitide to different tools we can use to conduct EDA, the easier solution is to use a tool that has all the functionality we need with one library. Our goal is to display how `Pandas`, a software library written for Python, is a great choice for data manipulation and analysis. Pandas will help you explore, clean, and process your data so that it is ready for modeling or to simply understand more of what the data is telling us.
+Exploratory Data Analysis (EDA) is one of the most important steps in solving data science problems, considering it takes up 90% of what data scientists do day-to-day. Without using the appropriate cleaned data, the inferences or predictions that are made can be misleading and unreliable. EDA is the process of exploring and cleaning our data to find trends that we can keep in mind, or resolve any issues that the data may cause, so that we can choose the most appropriate model that will provide is with the best results to answer our research questions. With a multitide to different tools we can use to conduct EDA, the best solution is to use a tool that has all the functionality we need with one library. Our goal is to display how `Pandas`, a software library written for Python, is a great choice for data manipulation and analysis. Pandas will help you explore, clean, and process your data so that it is ready for modeling or to make inferences.
 
 ## The Description
 
-<Pandas handles data acquisition really well. Pandas is able to import   `xml`,`json`,`csv`,`xls`,and `html`.>
+old comment: <Pandas handles data acquisition really well. Pandas is able to import   `xml`,`json`,`csv`,`xls`,and `html`.>
 
 Here, we will use Pandas to go through the four steps of EDA and explain their significance:
-1. Data Acquisition
-2. Data Exploration
-3. Data Preprocessing
-4. Visualization
+[1. Data Acquisition](#import)
+[2. Data Exploration](#explore)
+[3. Data Preprocessing](#preprocess)
+[4. Visualization](#viz)
 
 ## Getting Started 
 
@@ -24,6 +24,7 @@ Download the [eda-code.ipynb](https://github.com/neteodorochavez/msds610-eda-pan
 ```
 pip install --upgrade pip
 pip install pandas
+pip install numpy
 pip install matplotlib
 ```
 
@@ -33,14 +34,14 @@ pip install matplotlib
 
 Python's Pandas library is a powerful tool for EDA because of its flexibility with data manipulation using its provided functions, as well as its compatability with other commonly-used Python packages in data science such as scipy, numpy, and matplotlib. Pandas provides an organized and easy-to-read [documentation](https://pandas.pydata.org/pandas-docs/stable/reference/index.html) to help teach you how to use its different functions. In pandas, a data table is referred to as `DataFrame`. 
 
-### Importing Data (Joleena)
+### <a name="import">Importing Data</a> (Joleena)
 
 To begin EDA, the first step is to acquire the data you need. The internet, and other data sources, consists of data in different formats such as XML, HTML, JSON, and CSV. To help make the data more readable and easier to work with, Pandas provides functions to convert these filetypes into dataframes with a simple line of code. This way, we can combine data from different formats into one. With a working dataframe, we can clearly see every record without the learning curve of learning how to read different source code.
 
-### Data Exploration (Marti)
+### <a name="explore">Data Exploration</a> (Marti)
 #### Manipulating Data Frame
 
-### Preprocessing 
+### <a name="preprocess">Preprocessing</a>
 
 Preprocessing is the stage in EDA that explores the data and ensures its integrity. In other words, it makes sure that the dataset is properly formatted in order to continue with the next step of the process. Oftentimes this stage deals with missing or misleading data, creating better features (columns) than the ones already provided by the original dataset, and explores options for making the process of data retrieval more efficient.  
 
@@ -78,7 +79,7 @@ One last important step before you are ready to start the visualization process 
 
 ### Research Questions (Nestor) 
 
-### Visualization (Faye)
+### <a name="viz">Visualization</a> (Faye)
 
 <p float="left">
   <img src="figures/avg_account.jpg" width="270" />
