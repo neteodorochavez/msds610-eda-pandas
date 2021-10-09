@@ -38,7 +38,7 @@ Preprocessing is the stage in EDA that explores the data and ensures its integri
 #### Converting Data Types
 The benefit in using Pandas is that it allows one to easily convert data types. This stage is called data manipulation, and its where Pandas really shines. We are able to use functions that are specific to the pandas library to convert from one data type to another without altering the metadata itself. For instance, if a survey was recording birthdays of its users in order to find out, on average, how many users celebrate their birthday during the holiday months. Pandas allows to convert strings in the form of '12-24-2001' into a `datetime` object in order for us to easily extract month, day, or year. Common functionalities such as these are made efficient processes with the help from Pandas. 
 
-<p float="center">
+<p float="left">
   <img src="figures/df_student_dtypes.png" width="400"/>
   <img src="figures/df_student_dtypes_new.png" width="450"/>
 </p>
@@ -54,7 +54,7 @@ df_student
 ```
 This gives us the opportunity to create any new row and population it with values. In the above example, we have created a new column represented by `gender` on the DataFrame `df_student`. 
 
-<p float="center">
+<p float="left">
   <img src="figures/df_student.png" width="300"/>
   <img src="figures/df_student_append.png" width="300"/>
 </p>
