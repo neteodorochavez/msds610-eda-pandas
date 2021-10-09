@@ -32,11 +32,11 @@ pip install matplotlib
 
 ### Benefits of Pandas Library (Joleena)
 
-Python's Pandas library is a powerful tool for EDA because of its flexibility with data manipulation using its provided functions, as well as its compatability with other commonly-used Python packages in data science such as scipy, numpy, and matplotlib. Pandas provides an organized and easy-to-read [documentation](https://pandas.pydata.org/pandas-docs/stable/reference/index.html) to help teach you how to use its different functions. In pandas, a data table is referred to as `DataFrame`. 
+Python's Pandas library is a powerful tool for EDA because of its flexibility with data manipulation using its provided functions, as well as its compatibility with other commonly-used Python packages in data science such as scipy, numpy, and matplotlib. Pandas provides organized and easy-to-read [documentation](https://pandas.pydata.org/pandas-docs/stable/reference/index.html) to help teach you how to use its different functions. In pandas, a data table is referred to as `DataFrame`. 
 
 ### <a name="import">Importing Data</a> (Joleena)
 
-To begin EDA, the first step is to acquire the data you need. The internet, and other data sources, consists of data in different formats such as XML, HTML, JSON, and CSV. To help make the data more readable and easier to work with, Pandas provides functions to convert these filetypes into dataframes with a simple line of code. This way, we can combine data from different formats into one. With a working dataframe, we can clearly see every record without the learning curve of learning how to read different source code. Here are a few examples:
+To begin EDA, the first step is to acquire the data you need. The internet, and other data sources, consist of data in different formats such as XML, HTML, JSON, and CSV. To help make the data more readable and easier to work with, Pandas provides functions to convert these filetypes into data frames with a simple line of code. This way, we can combine data from different formats into one. With a working data frame, we can see every record without the learning curve of learning how to read different source code. Here are a few examples:
 
 XML file to a readable data frame using `pd.read_xml(<filepath>)`
 
