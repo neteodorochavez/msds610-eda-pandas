@@ -37,8 +37,8 @@ pip install matplotlib
 
 <p float="left">
   <img src="figures/avg_account.jpg" width="270" />
-  <img src="figures/job_freq.jpg" width="245" /> 
-  <img src="figures/salary_hist.jpg" width="245" />
+  <img src="figures/job_freq.jpg" width="250" /> 
+  <img src="figures/salary_hist.jpg" width="250" />
 </p>
 
 
