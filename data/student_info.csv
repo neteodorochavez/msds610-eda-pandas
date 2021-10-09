@@ -1,9 +1,9 @@
 id,name,age,birthday,previous_job,salary,cohort
-065,Marti,21,05-12-2000,,0,10
-066,Joleena,22,04-20-1999,software engineer,120000,10
+065,Marti,21,05-12-2000,,25000,10
+066,Joleena,22,10-12-1999,software engineer,42000,10
 067,Nestor,23,08-08-1998,math teacher,60000,10
 068,Faye,24,10-22-1997,software engineer,125000,10
 069,Bobby,20,01-01-2001,student,0,8
-070,Tom,26,06-07-1995,math teacher,75000,6
-071,Xue,21,04-30-2000,computer scientist,120000,8
-064,Isabella,22,02-19-1999,researcher,,9
+070,Tom,26,06-07-1995,math teacher,175000,6
+071,Xue,21,04-30-2000,computer scientist,20000,8
+064,Isabella,22,02-19-1999,researcher,44000,
