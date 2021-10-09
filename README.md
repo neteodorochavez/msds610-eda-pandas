@@ -37,25 +37,29 @@ Python's Pandas library is a powerful tool for EDA because of its flexibility wi
 ### <a name="import">Importing Data</a> (Joleena)
 
 To begin EDA, the first step is to acquire the data you need. The internet, and other data sources, consists of data in different formats such as XML, HTML, JSON, and CSV. To help make the data more readable and easier to work with, Pandas provides functions to convert these filetypes into dataframes with a simple line of code. This way, we can combine data from different formats into one. With a working dataframe, we can clearly see every record without the learning curve of learning how to read different source code. Here are a few examples:
-- XML file to a readable dataframe using `pd.read_xml(<filepath>)`
+- XML file to a readable data frame using `pd.read_xml(<filepath>)`
+- | XML | Pandas Data Frame|
+|   <img width="376" align="center" alt="Screen Shot 2021-10-08 at 11 16 31 PM" src="https://user-images.githubusercontent.com/31682057/136646564-f6a20b0b-5e11-4a09-94b4-60e3c5ca4a1b.png">|   <img width="280" alt="Screen Shot 2021-10-08 at 11 17 55 PM" src="https://user-images.githubusercontent.com/31682057/136646611-7522c99d-1862-4e8b-abda-d17adc36468a.png"> |
+
+
 <p float="left">
   <img width="376" align="center" alt="Screen Shot 2021-10-08 at 11 16 31 PM" src="https://user-images.githubusercontent.com/31682057/136646564-f6a20b0b-5e11-4a09-94b4-60e3c5ca4a1b.png">
   <img width="280" alt="Screen Shot 2021-10-08 at 11 17 55 PM" src="https://user-images.githubusercontent.com/31682057/136646611-7522c99d-1862-4e8b-abda-d17adc36468a.png">
 </p>
 
-- JSON file to a readable dataframe using `pd.read_json(<filepath>)`
+- JSON file to a readable data frame using `pd.read_json(<filepath>)`
 <p float="left">
   <img width="267" align="center" alt="Screen Shot 2021-10-08 at 11 20 05 PM" src="https://user-images.githubusercontent.com/31682057/136646692-058fb36e-f2f1-4da4-a65a-eaf9b9b3396f.png">
   <img width="300" alt="Screen Shot 2021-10-08 at 11 20 57 PM" src="https://user-images.githubusercontent.com/31682057/136646707-85bdd8f3-e009-470c-836c-5774653dec5c.png">
 </p>
 
-- HTML file to a readable dataframe using `pd.read_html(<filepath>)`
+- HTML file to a readable data frame using `pd.read_html(<filepath>)`
 <p float="left">
   <img width="471" align="center" alt="Screen Shot 2021-10-08 at 11 22 53 PM" src="https://user-images.githubusercontent.com/31682057/136646766-9b985e6f-fe4f-40f8-ae7b-980aeb357d64.png">
 <img width="289" alt="Screen Shot 2021-10-08 at 11 23 11 PM" src="https://user-images.githubusercontent.com/31682057/136646776-b40ddcf7-5bd5-4622-bbfe-b8b80c33c044.png">
 </p>
 
-- CSV file to a dataframe using `pd.read_csv(<filepath>)` (This is useful when aggregating with data from other filetypes or to use Pandas to preprocess data)
+- CSV file to a data frame using `pd.read_csv(<filepath>)` (This is useful when aggregating with data from other filetypes or to use Pandas to preprocess data)
 <p float="left">
   <img width="369" align="center" alt="Screen Shot 2021-10-08 at 11 25 16 PM" src="https://user-images.githubusercontent.com/31682057/136646826-1c239b32-c9e3-44be-969c-5af958ccb464.png">
 <img width="144" alt="Screen Shot 2021-10-08 at 11 25 29 PM" src="https://user-images.githubusercontent.com/31682057/136646834-1ac6ce1c-9f74-4055-a616-38cb0835b02c.png">
