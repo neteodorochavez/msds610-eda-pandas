@@ -40,7 +40,7 @@ The benefit in using Pandas is that it allows one to easily convert data types. 
 
 <p float="left">
   <img src="figures/df_student_dtypes.png" width="300"/>
-  <img src="figures/df_student_dtypes_new.png" width="295"/>
+  <img src="figures/df_student_dtypes_new.png" width="290"/>
 </p>
 
 In the case of missing information, Pandas allows the `.fillna(value)` function that allows us to set all of the `NaN` or missing values to whatever value we desire; typically 0. The importance behind this is seen dramatically when our dataset is minimal. For example, if the dataset we were working with contained 5 observations, getting rid of 1 observation diminishes 20% of the data set. This problem is seen on the same order with large datasets but in order to preserve order with any size of datasets, Pandas lets us do inplace replacement to keep rows that one may otherwise remove entirely. 
