@@ -51,7 +51,7 @@ This gives us the opportunity to create any new row and population it with value
 
 <p float="left">
   <img src="figures/df_student.png" width="400"/>
-  <img src="figures/df_student_append.png" width="400"/>
+  <img src="figures/df_student_append.png" width="500"/>
 </p>
 
 #### Removing Data 
