@@ -2,13 +2,18 @@
 
 **By**: Marti Heit, Joleena Marshall, Faye Pei, and Nestor Teodoro Chavez.
 
-## Our Goal 
-The goal of this project is display how `Pandas`, a software library written for Python, is a great choice for data manipulation and analysis. Pandas will help you explore, clean, and process your data. In pandas, a data table is referred to as `DataFrame`. 
+## Motivation
+Exploratory Data Analysis (EDA) is one of the most important steps in solving data science problems, considering it takes up 90% of what data scientists do day-to-day in their jobs. With a multitide to different tools we can use to conduct EDA, the easier solution is to use a tool that has all the functionality we need with one library. Our goal is to display how `Pandas`, a software library written for Python, is a great choice for data manipulation and analysis. Pandas will help you explore, clean, and process your data so that it is ready for modeling or to simply understand more of what the data is telling us.
 
 ## The Description
-This projects shows the entire process of EDA. Pandas handles data acquisition really well. Pandas is able to import   `xml`,`json`,`csv`,`xls`,and `html`. 
 
-<< fill in >>
+<Pandas handles data acquisition really well. Pandas is able to import   `xml`,`json`,`csv`,`xls`,and `html`.>
+
+Here, we will use Pandas to go through the four steps of EDA and explain their significance:
+- 1. Data Acquisition
+- 2. Data Exploration
+- 3. Data Preprocessing
+- 4. Visualization
 
 ## Getting Started 
 
@@ -22,11 +27,11 @@ pip install pandas
 pip install matplotlib
 ```
 
-## Our Process
+## Our Process <do we need this header?>
 
 ### Benefits of Pandas Library (Joleena)
 
-Python's Pandas library is a powerful tool for EDA because of its flexibility with data manipulation using its provided functions, as well as its compatability with other commonly-used Python packages in data science such as scipy, numpy, and matplotlib. Pandas provides an organized and easy-to-read [documentation](https://pandas.pydata.org/pandas-docs/stable/reference/index.html) to help teach you how to use its different functions.
+Python's Pandas library is a powerful tool for EDA because of its flexibility with data manipulation using its provided functions, as well as its compatability with other commonly-used Python packages in data science such as scipy, numpy, and matplotlib. Pandas provides an organized and easy-to-read [documentation](https://pandas.pydata.org/pandas-docs/stable/reference/index.html) to help teach you how to use its different functions. In pandas, a data table is referred to as `DataFrame`. 
 
 ### Importing Data (Joleena)
 
