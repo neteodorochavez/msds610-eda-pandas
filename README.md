@@ -37,11 +37,8 @@ Python's Pandas library is a powerful tool for EDA because of its flexibility wi
 ### <a name="import">Importing Data</a> (Joleena)
 
 To begin EDA, the first step is to acquire the data you need. The internet, and other data sources, consists of data in different formats such as XML, HTML, JSON, and CSV. To help make the data more readable and easier to work with, Pandas provides functions to convert these filetypes into dataframes with a simple line of code. This way, we can combine data from different formats into one. With a working dataframe, we can clearly see every record without the learning curve of learning how to read different source code. Here are a few examples:
-- XML file to a readable data frame using `pd.read_xml(<filepath>)`
-XML           |  Pandas Data Frame
-:-------------------------:|:-------------------------:
-![](https://user-images.githubusercontent.com/31682057/136646564-f6a20b0b-5e11-4a09-94b4-60e3c5ca4a1b.png)  |  ![](https://user-images.githubusercontent.com/31682057/136646611-7522c99d-1862-4e8b-abda-d17adc36468a.png)
 
+- XML file to a readable data frame using `pd.read_xml(<filepath>)`
 
 <p float="left">
   <img width="376" align="center" alt="Screen Shot 2021-10-08 at 11 16 31 PM" src="https://user-images.githubusercontent.com/31682057/136646564-f6a20b0b-5e11-4a09-94b4-60e3c5ca4a1b.png">
@@ -50,7 +47,7 @@ XML           |  Pandas Data Frame
 
 - JSON file to a readable data frame using `pd.read_json(<filepath>)`
 <p float="left">
-  <img width="267" align="center" alt="Screen Shot 2021-10-08 at 11 20 05 PM" src="https://user-images.githubusercontent.com/31682057/136646692-058fb36e-f2f1-4da4-a65a-eaf9b9b3396f.png">
+  <img width="267" align="center" alt="Screen Shot 2021-10-08 at 11 20 05 PM" src="https://user-images.githubusercontent.com/31682057/136646692-058fb36e-f2f1-4da4-a65a-eaf9b9b3396f.png">&nbsp;&nbsp;
   <img width="300" alt="Screen Shot 2021-10-08 at 11 20 57 PM" src="https://user-images.githubusercontent.com/31682057/136646707-85bdd8f3-e009-470c-836c-5774653dec5c.png">
 </p>
 
