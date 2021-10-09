@@ -65,7 +65,9 @@ The process for removal is similar to that of appending with one small change. A
 
 #### Indexing Data
 
-### Research Questions
+One last important step before you are ready to start the visualization process is with regards to efficiency. In this last step, we are going to organize our data usch that we can uniquely identify certain rows. Oftentimes, DataFrames will be serialized and the row will start at 0 and increase as we add more rows. We can reindex the entire DataFrame to fit with our Research Questions. The purpose of this stage is to consider the data you are going to work with in the near future and how can one set themselves up for success by organizing. As a simpel example, age has been chosen as the index. The rationale is that we not have our rows sorted by an integer value that will allow us to nicely 'slice' up the rows in order to categorize them by age for buidling insights on age groups rather than individuals. 
+
+### Research Questions (Nestor) 
 
 ### Visualization (Faye)
 
