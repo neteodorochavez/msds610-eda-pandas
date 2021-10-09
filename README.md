@@ -10,7 +10,7 @@ Exploratory Data Analysis (EDA) is one of the most important steps in solving da
 old comment: <Pandas handles data acquisition really well. Pandas is able to import   `xml`,`json`,`csv`,`xls`,and `html`.>
 
 Here, we will explain the significance of the four steps of EDA using Pandas:<br>
-1. [Data Acquisition](#import)<br>
+1. [Importing the Data](#import)<br>
 2. [Data Exploration](#explore)<br>
 3. [Data Preprocessing](#preprocess)
 4. [Visualization](#viz)<br>
@@ -64,7 +64,7 @@ CSV file to a data frame using `pd.read_csv(<filepath>)` (This is useful when ag
 </p>
 
 ### <a name="explore">Data Exploration</a> (Marti)
-#### Manipulating Data Frame
+#### Manipulating the Data Frame
 
 ### <a name="preprocess">Preprocessing</a>
 
