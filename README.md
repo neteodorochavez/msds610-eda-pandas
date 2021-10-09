@@ -24,12 +24,19 @@ pip install matplotlib
 
 ## Our Process
 
+### Benefits of Pandas Library
+
 ### Importing Data 
 
 ### Data Exploration
 #### Manipulating Data Frame
 
 ### Preprocessing 
+#### Converting Data Types 
+
+#### Appending Data 
+#### Removing Data 
+#### Indexing Data
 
 ### Research Questions
 
@@ -37,8 +44,8 @@ pip install matplotlib
 
 <p float="left">
   <img src="figures/avg_account.jpg" width="270" />
-  <img src="figures/job_freq.jpg" width="260" /> 
-  <img src="figures/salary_hist.jpg" width="260" />
+  <img src="figures/job_freq.jpg" width="262" /> 
+  <img src="figures/salary_hist.jpg" width="262" />
 </p>
 
 
