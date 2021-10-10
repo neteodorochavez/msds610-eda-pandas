@@ -198,6 +198,10 @@ The questions you pose here are not set in stone but they will be the motivation
 
 <p float="left">
   <img src="figures/avg_account.jpg" width="270" />
+### Scatter plot
+
+It is a type of plot which will be in a scatter format. It is mainly between 2 features. Here we will plot previous Age vs Salary and see if there is any linearity. From this scatter plot,we might make a preliminary conclusion  that there is the linear relationship between age and salary.
+
   <img src="figures/job_freq.jpg" width="262" /> 
   <img src="figures/salary_hist.jpg" width="262" />
 </p>
