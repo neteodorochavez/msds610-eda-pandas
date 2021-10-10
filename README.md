@@ -148,7 +148,7 @@ Due to the fact that raw data is difficult for humans to read, it is common to o
 
 
 
-This provides a peek in to the data, but it is important to get some summary information as well. Both `df.describe()` and `df.info()` will return summary tables for the DataFrame. The describe function provides summary statistics, including mean, standard deviation, median, minimum, and maximum, for numeric columns. The info function, shown below, on the other hand, can be used to determine data types, DataFrame shape, and nullity issues.   
+This provides a peek into the data, but it is important to get some summary information as well. Both `df.describe()` and `df.info()` will return summary tables for the DataFrame. The describe function provides summary statistics, including mean, standard deviation, median, minimum, and maximum, for numeric columns. The info function, shown below, on the other hand, can be used to determine data types, DataFrame shape, and nullity issues.   
 
 <p float="left">
 <img width="395" alt="df_info" src="https://user-images.githubusercontent.com/59813199/136711819-a612f30b-f450-44aa-b570-28720b6f083b.png">
@@ -163,7 +163,7 @@ If there are discrepancies between columns non-null counts, calling `df.isnull()
 Preprocessing is the stage in EDA that explores the dataset and ensures its integrity. In other words, it makes sure that the dataset is properly formatted in order to continue with the next step of the process. Oftentimes this stage deals with missing or misleading data, creating better features (columns) than the ones already provided by the original dataset, and explores options for making the process of data retrieval more efficient.  
 
 #### Converting Data Types
-The benefit in using Pandas is that it allows one to easily convert data types. This stage is called data manipulation, and its where Pandas really shines. We are able to use functions that are specific to the Pandas library to convert from one data type to another without altering the metadata itself. For instance, if a survey was recording birthdays of its users in order to find out, on average, how many users celebrate their birthday during the holiday months. Pandas allows to convert strings in the form of '12-24-2001' into a `datetime` object in order for us to easily extract month, day, or year. Common functionalities such as these are made efficient processes with the help from Pandas. 
+The benefit of using Pandas is that it allows one to easily convert data types. This stage is called data manipulation, and its where Pandas really shines. We are able to use functions that are specific to the Pandas library to convert from one data type to another without altering the metadata itself. For instance, if a survey was recording birthdays of its users in order to find out, on average, how many users celebrate their birthday during the holiday months. Pandas allows to convert strings in the form of '12-24-2001' into a `datetime` object in order for us to easily extract month, day, or year. Common functionalities such as these are made efficient processes with the help from Pandas. 
 
 <p float="left">
   <img src="figures/df_student_dtypes.png" width="300"/>
