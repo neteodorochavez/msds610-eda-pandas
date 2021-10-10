@@ -170,16 +170,16 @@ The benefit of using Pandas is that it allows one to easily convert data types. 
   <img src="figures/df_student_dtypes_new.png" width="285"/>
 </p>
 
-In the case of missing information, Pandas allows the `.fillna(value)` function that allows us to set all of the `NaN` or missing values to whatever value we desire; typically 0. The importance behind this is seen dramatically when our dataset is minimal. For example, if the dataset we were working with contained 5 observations, getting rid of 1 observation diminishes 20% of the data set. This problem is seen on the same order with large datasets but in order to preserve order with any size of datasets, Pandas lets us do inplace replacement to keep rows that one may otherwise remove entirely. 
+In the case of missing information, Pandas allows the `.fillna(value)` function that allows us to set all of the `NaN` or missing values to whatever value we desire; typically 0. The importance behind this is seen dramatically when our dataset is minimal. For example, if the dataset we were working with contained 5 observations, getting rid of 1 observation diminishes 20% of the data set. This problem is seen in the same order with large datasets but in order to preserve order with any size of datasets, Pandas lets us do in-place replacement to keep rows that one may otherwise remove entirely. 
 
 #### Appending Data 
-We've seen that data conversion is an important part in cleaning up data. Once we've cleaned up our data it might behoove the user to be able to update the existing table or add in more values that aid in the process of building holistic insights.
+We've seen that data conversion is an important part of cleaning up data. Once we've cleaned up our data it might behoove the user to be able to update the existing table or add in more values that aid in the process of building holistic insights.
 
 ```
 df_student['gender'] = ['F', 'F', 'M', 'F', 'M', 'M', 'F', 'F']
 df_student
 ```
-This gives us the opportunity to create any new row and population it with values. In the above example, we have created a new column represented by `gender` on the DataFrame `df_student`. 
+This allows us to create any new row and population it with values. In the above example, we have created a new column represented by `gender` on the DataFrame `df_student`. 
 
 <p float="left">
   <img src="figures/df_student.png" width="375"/>
@@ -188,17 +188,17 @@ This gives us the opportunity to create any new row and population it with value
 
 #### Removing Data 
 
-The process for removal is similar to that of appending with one small change. Although the methodology and syntax is very similar, when removing data from the DataFrame we want to ensure we are deleting the entire column or the entire row. Importance is weighted heavily on the axis parameter within the function call, `.drop(col, axis = 1)`. This allows you to delete columns in the DataFrame. 
+The process for removal is similar to that of appending with one small change. Although the methodology and syntax are very similar, when removing data from the DataFrame we want to ensure we are deleting the entire column or the entire row. Importance is weighted heavily on the axis parameter within the function call, `.drop(col, axis = 1)`. This allows you to delete columns in the DataFrame. 
 
 #### Indexing Data
 
-One last important step before you are ready to start the visualization process is with regards to efficiency. In this last step, we are going to organize our data usch that we can uniquely identify certain rows. Oftentimes, DataFrames will be serialized and the row will start at 0 and increase as we add more rows. We can reindex the entire DataFrame to fit with our Research Questions. The purpose of this stage is to consider the data you are going to work with in the near future and how can one set themselves up for success by organizing. As a simpel example, age has been chosen as the index. The rationale is that we not have our rows sorted by an integer value that will allow us to nicely 'slice' up the rows in order to categorize them by age for buidling insights on age groups rather than individuals. 
+In this last step, we are going to organize our data such that we can uniquely identify certain rows. Oftentimes, DataFrames will be serialized and the row will start at 0 and increase as we add more rows. We can reindex the entire DataFrame to fit with our Research Questions. The purpose of this stage is to consider the data you are going to work on within the near future and how can one set themselves up for success by organizing. As a simple example, age has been chosen as the index. The rationale is that we do not have our rows sorted by an integer value that will allow us to nicely 'slice' up the rows to categorize them by age for building insights on age groups rather than individuals. 
 
 ### Research Questions 
 
-Asking questions throughout the stages outlined above it pivotal. If it hasn't been done yet, now is a great time to start. In this stage of the EDA process, the user is comfortable and confident with the dataset. In other words, they understand what data has been collected, where it came from, and that the data has been parsed in such a way that makes it universal to questions who may or may not have started to ask. 
+Asking questions throughout the stages outlined above is pivotal. If it hasn't been done yet, now is a great time to start. In this stage of the EDA process, the user is comfortable and confident with the dataset. In other words, they understand what data has been collected, where it came from, and that the data has been parsed in such a way that makes it universal to questions who may or may not have started to ask. 
 
-In order to build models and insights its important to ask thought-provoking questions. This stage follows hand-in-hand with the scientific method. What exactly was the goal of utilizing this dataset? What questions did you initially have and how have they evolved since working with the dataset? One of the most common practices is building evidence for relationships that exist within your dataset.
+In order to build models and insights, it's important to ask thought-provoking questions. This stage follows hand-in-hand with the scientific method. What exactly was the goal of utilizing this dataset? What questions did you initially have and how have they evolved since working with the dataset? One of the most common practices is building evidence for relationships that exist within your dataset.
 
 The questions you pose here are not set in stone but they will be the motivation for the next step, Visualization. Oftentimes, the data will offer information or enlightenment on the topic of your choice and it is up to the user to continue to dig deeper for significant insights. Usually, these insights should be data-driven. When you've gathered your promising evidence, make sure you question its validity and explore your results; perhaps even, modify your initial question. 
 
@@ -207,15 +207,15 @@ The questions you pose here are not set in stone but they will be the motivation
 <p float="left">
   <img src="figures/avg_account.jpg" width="270" />
 
-Scatter plot- It is a type of plot which will be in a scatter format. It is mainly between 2 features. Here we will plot previous Age vs Salary and see if there is any linearity. From this scatter plot,we might make a preliminary conclusion  that there is the linear relationship between age and salary.
+Scatter plot: It is a type of plot that will be in a scatter format. It is mainly between 2 features. Here we will plot previous Age vs Salary and see if there is any linearity. From this scatter plot, we might make a preliminary conclusion that there is a linear relationship between age and salary.
 
   <img src="figures/job_freq.jpg" width="262" /> 
   
-Bar plot or bar chart- It is a graph that represents the category of data with rectangular bars with lengths and heights that is proportional to the values which they represent. The bar plots can be plotted horizontally or vertically. A bar chart describes the comparisons between the discrete categories. One of the axis of the plot represents the specific categories being compared, while the other axis represents the measured values corresponding to those categories. We plot the frequency of previous jobs for each person, the bar plot could clearly present the data.
+Bar plot or bar chart: It is a graph that represents the category of data with rectangular bars with lengths and heights that is proportional to the values which they represent. The bar plots can be plotted horizontally or vertically. A bar chart describes the comparisons between the discrete categories. One of the axis of the plot represents the specific categories being compared, while the other axis represents the measured values corresponding to those categories. We plot the frequency of previous jobs for each person, the bar plot could clearly present the data.
 
-Histogram plot- A histogram is a graph showing frequency distributions.
+Histogram plot: A histogram is a graph showing frequency distributions.
 It is a graph showing the number of observations within each given interval.
-This type of plots are very popular in statistical analysis. Example: Say you ask for the salary of 8 people, you might end up with a histogram like this:
+This type of plot is very popular in statistical analysis. For example, say you ask for the salary of 8 people, you might end up with a histogram like this:
 
   <img src="figures/salary_hist.jpg" width="262" />
 
