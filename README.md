@@ -148,8 +148,6 @@ This provides a peek in to the data, but it is important to get some summary inf
 
 If there are discrepancies between columns non-null counts, calling `df.isnull()` on a data frame, or any subset of that data frame, will return a data frame of the same size containing Boolean true or false values describing each entry's nullity.  
 
-#### Manipulating the Data Frame
-
 ### <a name="preprocess">Preprocessing</a>
 
 Preprocessing is the stage in EDA that explores the dataset and ensures its integrity. In other words, it makes sure that the dataset is properly formatted in order to continue with the next step of the process. Oftentimes this stage deals with missing or misleading data, creating better features (columns) than the ones already provided by the original dataset, and explores options for making the process of data retrieval more efficient.  
@@ -186,7 +184,7 @@ The process for removal is similar to that of appending with one small change. A
 
 One last important step before you are ready to start the visualization process is with regards to efficiency. In this last step, we are going to organize our data usch that we can uniquely identify certain rows. Oftentimes, DataFrames will be serialized and the row will start at 0 and increase as we add more rows. We can reindex the entire DataFrame to fit with our Research Questions. The purpose of this stage is to consider the data you are going to work with in the near future and how can one set themselves up for success by organizing. As a simpel example, age has been chosen as the index. The rationale is that we not have our rows sorted by an integer value that will allow us to nicely 'slice' up the rows in order to categorize them by age for buidling insights on age groups rather than individuals. 
 
-### Research Questions (Nestor) 
+### Research Questions 
 
 Asking questions throughout the stages outlined above it pivotal. If it hasn't been done yet, now is a great time to start. In this stage of the EDA process, the user is comfortable and confident with the dataset. In other words, they understand what data has been collected, where it came from, and that the data has been parsed in such a way that makes it universal to questions who may or may not have started to ask. 
 
