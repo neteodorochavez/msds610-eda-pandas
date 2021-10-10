@@ -65,12 +65,12 @@ JSON file to a readable data frame using `pd.read_json(<filepath>)`
 [
   {
     "id": "A001",
-    "name" "Tom",
+    "name": "Tom",
     "math": 60,
     "physics": 66,
     "chemistry": 61
   }, 
-  ...
+  '...'
   {
     "id": "A003",
     "name": "Jenny",
