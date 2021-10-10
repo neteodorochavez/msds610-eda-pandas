@@ -15,7 +15,7 @@ Here, we will explain the significance of the four steps of EDA using Pandas:<br
 
 ## Getting Started 
 
-Download the [eda-code.ipynb](https://github.com/neteodorochavez/msds610-eda-pandas/blob/main/EDA-Code.ipynb). Next, download the [data](https://github.com/neteodorochavez/msds610-eda-pandas/tree/main/data). If you'd like to use other datasets, make sure to add them into the data folder. The filetypes of choice have a wide range.
+Download the [eda-code.ipynb](https://github.com/neteodorochavez/msds610-eda-pandas/blob/main/EDA-Code.ipynb). Next, download the [data](https://github.com/neteodorochavez/msds610-eda-pandas/tree/main/data). If you'd like to use other datasets, make sure to add them to the data folder. The file types of choice have a wide range.
 
 ## Installation
 
@@ -34,7 +34,7 @@ Python's Pandas library is a powerful tool for EDA because of its flexibility wi
 
 ### <a name="import">Importing Data</a> 
 
-To begin EDA, the first step is to acquire the data you need. The internet, and other data sources, consist of data in different formats such as XML, HTML, JSON, and CSV. To help make the data more readable and easier to work with, Pandas provides functions to convert these filetypes into data frames with a simple line of code. This way, we can combine data from different formats into one. With a working data frame, we can see every record without the learning curve of learning how to read different source code. Here are a few examples:
+To begin EDA, the first step is to acquire the data you need. The internet, and other data sources, consist of data in different formats such as XML, HTML, JSON, and CSV. To help make the data more readable and easier to work with, Pandas provides functions to convert these file types into data frames with a simple line of code. This way, we can combine data from different formats into one. With a working data frame, we can see every record without the learning curve of learning how to read different source code. Here are a few examples:
 
 XML file to a readable data frame using `pd.read_xml(<filepath>)`
 
