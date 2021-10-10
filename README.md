@@ -146,7 +146,7 @@ Due to the fact that raw data is difficult for humans to read, it is common to o
 <img width="395" alt="df_head" src="https://user-images.githubusercontent.com/59813199/136682027-6aa28b71-65ef-481b-a1a1-3b77d9b80702.png">
 </p>
 
-This provides a peek in to the data, but it is important to get some summary information as well. Both `df.describe()` and `df.info()` will return summary tables for the DataFrame. The describe function provides summary statistics, including mean, standard deviation, median, minimum, and maximum, for numeric columns. The info function, shown below, on the other hand, can be used to determine data types, DataFrame shape, and nullity issues.   
+This provides a peek into the data, but it is important to get some summary information as well. Both `df.describe()` and `df.info()` will return summary tables for the DataFrame. The describe function provides summary statistics, including mean, standard deviation, median, minimum, and maximum, for numeric columns. The info function, shown below, on the other hand, can be used to determine data types, DataFrame shape, and nullity issues.   
 
 <p float="left">
 <img width="351" alt="df_head" src="https://user-images.githubusercontent.com/59813199/136711722-d6bf5c24-2d9d-4ec3-bce7-562e9babae88.png">
