@@ -143,10 +143,12 @@ CSV file to a DataFrame using `pd.read_csv(<filepath>)` (This is useful when agg
 Due to the fact that raw data is difficult for humans to read, it is common to obtain a DataFrame, but not know what it holds. The data may have millions of rows, so it is not plausible to comb through every DataFrame row by row. Instead, Pandas functions provide the ability to get a high-level view of the data. The most common way of quickly examining data is to look at a small subset of the rows. Shown below, the `df.head(n)` function will display the first `n`, five by default, rows of the DataFrame.
 
 <p float="left">
-<img width="395" alt="df_head" src="https://user-images.githubusercontent.com/59813199/136682027-6aa28b71-65ef-481b-a1a1-3b77d9b80702.png">
+<img width="423" alt="dfhead" src="https://user-images.githubusercontent.com/59813199/136711795-f7084ace-5b9c-4ff7-841b-52e418ed64aa.png">
 </p>
 
-This provides a peek into the data, but it is important to get some summary information as well. Both `df.describe()` and `df.info()` will return summary tables for the DataFrame. The describe function provides summary statistics, including mean, standard deviation, median, minimum, and maximum, for numeric columns. The info function, shown below, on the other hand, can be used to determine data types, DataFrame shape, and nullity issues.   
+
+
+This provides a peek in to the data, but it is important to get some summary information as well. Both `df.describe()` and `df.info()` will return summary tables for the DataFrame. The describe function provides summary statistics, including mean, standard deviation, median, minimum, and maximum, for numeric columns. The info function, shown below, on the other hand, can be used to determine data types, DataFrame shape, and nullity issues.   
 
 <p float="left">
 <img width="351" alt="df_head" src="https://user-images.githubusercontent.com/59813199/136711722-d6bf5c24-2d9d-4ec3-bce7-562e9babae88.png">
