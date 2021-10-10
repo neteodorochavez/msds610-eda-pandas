@@ -121,7 +121,7 @@ HTML file to a readable data frame using `pd.read_html(<filepath>)`
 <img width="300" alt="Screen Shot 2021-10-08 at 11 23 11 PM" src="https://user-images.githubusercontent.com/31682057/136646776-b40ddcf7-5bd5-4622-bbfe-b8b80c33c044.png">
 </p>
 
-CSV file to a data frame using `pd.read_csv(<filepath>)` (This is useful when aggregating with data from other filetypes or to use Pandas to preprocess data)
+CSV file to a DataFrame using `pd.read_csv(<filepath>)` (This is useful when aggregating with data from other filetypes or to use Pandas to preprocess data)
 
 | id      | name      | age |
 | :-------|:---------:| ---:|
@@ -140,26 +140,26 @@ CSV file to a data frame using `pd.read_csv(<filepath>)` (This is useful when ag
 
 ### <a name="explore">Data Exploration</a> 
 
-Due to the fact that raw data is difficult for humans to read, it is common to obtain a DataFrame, but not know what it holds. The data may have millions of rows, so it is not plausible to comb through every data frame row by row. Instead, Pandas functions provide the ability to get a high-level view of the data. The most common way of quickly examining data is to look at a small subset of the rows. Shown below, the `df.head(n)` function will display the first `n`, five by default, rows of the data frame.
+Due to the fact that raw data is difficult for humans to read, it is common to obtain a DataFrame, but not know what it holds. The data may have millions of rows, so it is not plausible to comb through every DataFrame row by row. Instead, Pandas functions provide the ability to get a high-level view of the data. The most common way of quickly examining data is to look at a small subset of the rows. Shown below, the `df.head(n)` function will display the first `n`, five by default, rows of the DataFrame.
 
 < p float="left">
 <img width="645" alt="df_head" src="https://user-images.githubusercontent.com/59813199/136682027-6aa28b71-65ef-481b-a1a1-3b77d9b80702.png">
 </p>
 
-This provides a peek in to the data, but it is important to get some summary information as well. Both `df.describe()` and `df.info()` will return summary tables for the data frame. The describe function provides summary statistics, including mean, standard deviation, median, minimum, and maximum, for numeric columns. The info function, shown below, on the other hand, can be used to determine data types, data frame shape, and nullity issues.   
+This provides a peek in to the data, but it is important to get some summary information as well. Both `df.describe()` and `df.info()` will return summary tables for the DataFrame. The describe function provides summary statistics, including mean, standard deviation, median, minimum, and maximum, for numeric columns. The info function, shown below, on the other hand, can be used to determine data types, DataFrame shape, and nullity issues.   
 
 < p float="left">
 <img width="395" alt="df_info" src="https://user-images.githubusercontent.com/59813199/136681907-f481707b-7c01-490a-a53f-3e5dd4e845c4.png">
 </p>
 
-If there are discrepancies between columns non-null counts, calling `df.isnull()` on a data frame, or any subset of that data frame, will return a data frame of the same size containing Boolean true or false values describing each entry's nullity.  
+If there are discrepancies between columns non-null counts, calling `df.isnull()` on a DataFrame, or any subset of that DataFrame, will return a DataFrame of the same size containing Boolean true or false values describing each entry's nullity.  
 
 ### <a name="preprocess">Preprocessing</a>
 
 Preprocessing is the stage in EDA that explores the dataset and ensures its integrity. In other words, it makes sure that the dataset is properly formatted in order to continue with the next step of the process. Oftentimes this stage deals with missing or misleading data, creating better features (columns) than the ones already provided by the original dataset, and explores options for making the process of data retrieval more efficient.  
 
 #### Converting Data Types
-The benefit in using Pandas is that it allows one to easily convert data types. This stage is called data manipulation, and its where Pandas really shines. We are able to use functions that are specific to the pandas library to convert from one data type to another without altering the metadata itself. For instance, if a survey was recording birthdays of its users in order to find out, on average, how many users celebrate their birthday during the holiday months. Pandas allows to convert strings in the form of '12-24-2001' into a `datetime` object in order for us to easily extract month, day, or year. Common functionalities such as these are made efficient processes with the help from Pandas. 
+The benefit in using Pandas is that it allows one to easily convert data types. This stage is called data manipulation, and its where Pandas really shines. We are able to use functions that are specific to the Pandas library to convert from one data type to another without altering the metadata itself. For instance, if a survey was recording birthdays of its users in order to find out, on average, how many users celebrate their birthday during the holiday months. Pandas allows to convert strings in the form of '12-24-2001' into a `datetime` object in order for us to easily extract month, day, or year. Common functionalities such as these are made efficient processes with the help from Pandas. 
 
 <p float="left">
   <img src="figures/df_student_dtypes.png" width="300"/>
