@@ -192,7 +192,7 @@ In order to build models and insights its important to ask thought-provoking que
 
 The questions you pose here are not set in stone but they will be the motivation for the next step, Visualization. Oftentimes, the data will offer information or enlightenment on the topic of your choice and it is up to the user to continue to dig deeper for significant insights. Usually, these insights should be data-driven. When you've gathered your promising evidence, make sure you question its validity and explore your results; perhaps even, modify your initial question. 
 
-### <a name="viz">Visualization</a> (Faye)
+### <a name="viz">Visualization</a>
 
 <p float="left">
   <img src="figures/avg_account.jpg" width="270" />
