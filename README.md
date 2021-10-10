@@ -197,11 +197,11 @@ The questions you pose here are not set in stone but they will be the motivation
 <p float="left">
   <img src="figures/avg_account.jpg" width="270" />
 
-Scatter plot-It is a type of plot which will be in a scatter format. It is mainly between 2 features. Here we will plot previous Age vs Salary and see if there is any linearity. From this scatter plot,we might make a preliminary conclusion  that there is the linear relationship between age and salary.
+Scatter plot- It is a type of plot which will be in a scatter format. It is mainly between 2 features. Here we will plot previous Age vs Salary and see if there is any linearity. From this scatter plot,we might make a preliminary conclusion  that there is the linear relationship between age and salary.
 
   <img src="figures/job_freq.jpg" width="262" /> 
   
-Bar plot or bar chart-It is a graph that represents the category of data with rectangular bars with lengths and heights that is proportional to the values which they represent. The bar plots can be plotted horizontally or vertically. A bar chart describes the comparisons between the discrete categories. One of the axis of the plot represents the specific categories being compared, while the other axis represents the measured values corresponding to those categories. We plot the frequency of previous jobs for each person, the bar plot could clearly present the data.
+Bar plot or bar chart- It is a graph that represents the category of data with rectangular bars with lengths and heights that is proportional to the values which they represent. The bar plots can be plotted horizontally or vertically. A bar chart describes the comparisons between the discrete categories. One of the axis of the plot represents the specific categories being compared, while the other axis represents the measured values corresponding to those categories. We plot the frequency of previous jobs for each person, the bar plot could clearly present the data.
 
 Histogram plot- A histogram is a graph showing frequency distributions.
 It is a graph showing the number of observations within each given interval.
