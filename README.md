@@ -71,12 +71,18 @@ JSON file to a readable data frame using `pd.read_json(<filepath>)`
     "chemistry": 61
   }, 
   ...
+  {
+    "id": "A003",
+    "name": "Jenny",
+    "math": 79, 
+    "physics": 76,
+    "chemistrY": 51,
+    }
 ]
 
 ```
 
-<p float="left" align="center">
-  <img width="267" align="center" alt="Screen Shot 2021-10-08 at 11 20 05 PM" src="https://user-images.githubusercontent.com/31682057/136646692-058fb36e-f2f1-4da4-a65a-eaf9b9b3396f.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p float="left" >
   <img width="300" alt="Screen Shot 2021-10-08 at 11 20 57 PM" src="https://user-images.githubusercontent.com/31682057/136646707-85bdd8f3-e009-470c-836c-5774653dec5c.png">
 </p>
 
