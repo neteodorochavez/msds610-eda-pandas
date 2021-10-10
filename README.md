@@ -135,7 +135,7 @@ CSV file to a data frame using `pd.read_csv(<filepath>)` (This is useful when ag
 | 064     | Isabella  | 22  |
 
 <p float="left">
-<img width="300" alt="Screen Shot 2021-10-08 at 11 25 29 PM" src="https://user-images.githubusercontent.com/31682057/136646834-1ac6ce1c-9f74-4055-a616-38cb0835b02c.png">
+<img width="144" alt="Screen Shot 2021-10-08 at 11 25 29 PM" src="https://user-images.githubusercontent.com/31682057/136646834-1ac6ce1c-9f74-4055-a616-38cb0835b02c.png">
 </p>
 
 ### <a name="explore">Data Exploration</a> (Marti)
