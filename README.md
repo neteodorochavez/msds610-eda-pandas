@@ -93,6 +93,30 @@ JSON file to a readable data frame using `pd.read_json(<filepath>)`
 </p>
 
 HTML file to a readable data frame using `pd.read_html(<filepath>)`
+
+```html
+<table class="wikitable" style="float:right; font-size:95%; margin:190px">
+  <caption>
+    "Election results from statewide races"
+    <sup id="cite_ref-153" class="reference">
+      <a href="#cite_note-153">[153]</a>
+    </sup>
+  </caption>
+  <tbody>
+    <tr>
+      <th>Year </th>
+      <th>Office </th>
+      <th>
+        <a href="/wiki/Minnesota_Republican_Party" class="mw-redirect" title="Minnesota Republican Party">GOP</a>
+      </th>
+      ...
+    </tr>
+  </tbody>
+</table>
+
+```
+
+
 <p float="left" align="center">
   <img width="471" align="center" alt="Screen Shot 2021-10-08 at 11 22 53 PM" src="https://user-images.githubusercontent.com/31682057/136646766-9b985e6f-fe4f-40f8-ae7b-980aeb357d64.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img width="289" alt="Screen Shot 2021-10-08 at 11 23 11 PM" src="https://user-images.githubusercontent.com/31682057/136646776-b40ddcf7-5bd5-4622-bbfe-b8b80c33c044.png">
