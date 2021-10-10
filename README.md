@@ -7,8 +7,6 @@ Exploratory Data Analysis (EDA) is one of the most important steps in solving da
 
 ## The Description
 
-old comment: <Pandas handles data acquisition really well. Pandas is able to import   `xml`,`json`,`csv`,`xls`,and `html`.>
-
 Here, we will explain the significance of the four steps of EDA using Pandas:<br>
 1. [Importing the Data](#import)<br>
 2. [Data Exploration](#explore)<br>
@@ -30,11 +28,11 @@ pip install matplotlib
 
 ## Our Process
 
-### Benefits of Pandas Library (Joleena)
+### Benefits of Pandas Library
 
 Python's Pandas library is a powerful tool for EDA because of its flexibility with data manipulation using its provided functions, as well as its compatibility with other commonly-used Python packages in data science such as scipy, numpy, and matplotlib. Pandas provides organized and easy-to-read [documentation](https://pandas.pydata.org/pandas-docs/stable/reference/index.html) to help teach you how to use its different functions. In pandas, a data table is referred to as `DataFrame`. 
 
-### <a name="import">Importing Data</a> (Joleena)
+### <a name="import">Importing Data</a> 
 
 To begin EDA, the first step is to acquire the data you need. The internet, and other data sources, consist of data in different formats such as XML, HTML, JSON, and CSV. To help make the data more readable and easier to work with, Pandas provides functions to convert these filetypes into data frames with a simple line of code. This way, we can combine data from different formats into one. With a working data frame, we can see every record without the learning curve of learning how to read different source code. Here are a few examples:
 
@@ -103,6 +101,7 @@ The process for removal is similar to that of appending with one small change. A
 One last important step before you are ready to start the visualization process is with regards to efficiency. In this last step, we are going to organize our data usch that we can uniquely identify certain rows. Oftentimes, DataFrames will be serialized and the row will start at 0 and increase as we add more rows. We can reindex the entire DataFrame to fit with our Research Questions. The purpose of this stage is to consider the data you are going to work with in the near future and how can one set themselves up for success by organizing. As a simpel example, age has been chosen as the index. The rationale is that we not have our rows sorted by an integer value that will allow us to nicely 'slice' up the rows in order to categorize them by age for buidling insights on age groups rather than individuals. 
 
 ### Research Questions (Nestor) 
+
 
 ### <a name="viz">Visualization</a> (Faye)
 
