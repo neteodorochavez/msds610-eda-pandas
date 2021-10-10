@@ -179,6 +179,11 @@ One last important step before you are ready to start the visualization process 
 
 ### Research Questions (Nestor) 
 
+Asking questions throughout the stages outlined above it pivotal. If it hasn't been done yet, now is a great time to start. In this stage of the EDA process, the user is comfortable and confident with the dataset. In other words, they understand what data has been collected, where it came from, and that the data has been parsed in such a way that makes it universal to questions who may or may not have started to ask. 
+
+In order to build models and insights its important to ask thought-provoking questions. This stage follows hand-in-hand with the scientific method. What exactly was the goal of utilizing this dataset? What questions did you initially have and how have they evolved since working with the dataset? One of the most common practices is building evidence for relationships that exist within your dataset.
+
+The questions you pose here are not set in stone but they will be the motivation for the next step, Visualization. Oftentimes, the data will offer information or enlightenment on the topic of your choice and it is up to the user to continue to dig deeper for significant insights. Usually, these insights should be data-driven. When you've gathered your promising evidence, make sure you question its validity and explore your results; perhaps even, modify your initial question. 
 
 ### <a name="viz">Visualization</a> (Faye)
 
