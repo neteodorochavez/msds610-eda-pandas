@@ -140,7 +140,8 @@ CSV file to a data frame using `pd.read_csv(<filepath>)` (This is useful when ag
 
 ### <a name="explore">Data Exploration</a> 
 
-Due to the fact that raw data is difficult for humans to read, it is common to obtain a data frame, but not know what it holds. The data may have millions of rows, so it is not plausible to comb through every data frame row by row. Instead, Pandas functions provide the ability to get a high-level view of the data. The most common way of quickly examining data is to look at a small subset of the rows. The `df.head(n)` function will display the first n, five by default, rows of the data frame.
+Due to the fact that raw data is difficult for humans to read, it is common to obtain a data frame, but not know what it holds. The data may have millions of rows, so it is not plausible to comb through every data frame row by row. Instead, Pandas functions provide the ability to get a high-level view of the data. The most common way of quickly examining data is to look at a small subset of the rows. Shown below, the `df.head(n)` function will display the first `n`, five by default, rows of the data frame.
+
 
 #### Manipulating the Data Frame
 
