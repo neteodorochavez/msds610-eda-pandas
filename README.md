@@ -121,7 +121,7 @@ HTML file to a readable data frame using `pd.read_html(<filepath>)`
 <img width="300" alt="Screen Shot 2021-10-08 at 11 23 11 PM" src="https://user-images.githubusercontent.com/31682057/136646776-b40ddcf7-5bd5-4622-bbfe-b8b80c33c044.png">
 </p>
 
-CSV file to a DataFrame using `pd.read_csv(<filepath>)` (This is useful when aggregating with data from other file types or to use Pandas to preprocess data)
+CSV file to a DataFrame using `pd.read_csv(<filepath>)` (This is useful when aggregating with data from other filetypes or to use Pandas to preprocess data)
 
 | id      | name      | age |
 | :-------|:---------:| ---:|
@@ -149,8 +149,9 @@ Due to the fact that raw data is difficult for humans to read, it is common to o
 This provides a peek in to the data, but it is important to get some summary information as well. Both `df.describe()` and `df.info()` will return summary tables for the DataFrame. The describe function provides summary statistics, including mean, standard deviation, median, minimum, and maximum, for numeric columns. The info function, shown below, on the other hand, can be used to determine data types, DataFrame shape, and nullity issues.   
 
 <p float="left">
-<img width="395" alt="df_info" src="https://user-images.githubusercontent.com/59813199/136681907-f481707b-7c01-490a-a53f-3e5dd4e845c4.png">
+<img width="351" alt="df_head" src="https://user-images.githubusercontent.com/59813199/136711722-d6bf5c24-2d9d-4ec3-bce7-562e9babae88.png">
 </p>
+
 
 If there are discrepancies between columns non-null counts, calling `df.isnull()` on a DataFrame, or any subset of that DataFrame, will return a DataFrame of the same size containing Boolean true or false values describing each entry's nullity.  
 
