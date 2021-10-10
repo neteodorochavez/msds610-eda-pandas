@@ -225,4 +225,4 @@ This type of plot is very popular in statistical analysis. For example, say you 
 ### Next Steps 
 Now that you have a clean DataFrame, you are now ready to perform formal modeling and analysis. 
 
-Check out Python's `scikit-learn` and `statsmodels` packages for helpful functions and useful information regarding modeling.
+Check out Python's [`sci-kit learn`](https://scikit-learn.org/stable/install.html) and [`statsmodels`](https://www.statsmodels.org/stable/index.html) packages for useful information regarding modeling. 
