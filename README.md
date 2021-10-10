@@ -143,9 +143,10 @@ CSV file to a data frame using `pd.read_csv(<filepath>)` (This is useful when ag
 Due to the fact that raw data is difficult for humans to read, it is common to obtain a data frame, but not know what it holds. The data may have millions of rows, so it is not plausible to comb through every data frame row by row. Instead, Pandas functions provide the ability to get a high-level view of the data. The most common way of quickly examining data is to look at a small subset of the rows. Shown below, the `df.head(n)` function will display the first `n`, five by default, rows of the data frame.
 ![image](https://user-images.githubusercontent.com/59813199/136681335-ab7de421-0408-4fa0-987b-8943a3ebd9cb.png)
 
-This provides a peek in to the data, but it is important to get some summary information as well. Both `df.describe()` and `df.info()` will return summary tables for the data frame. The describe function provides summary statistics, including mean, standard deviation, median, minimum, and maximum, for numeric columns. The info function, on the other hand, can be used to determine data types, data frame shape, and nullity issues.   
+This provides a peek in to the data, but it is important to get some summary information as well. Both `df.describe()` and `df.info()` will return summary tables for the data frame. The describe function provides summary statistics, including mean, standard deviation, median, minimum, and maximum, for numeric columns. The info function, shown below, on the other hand, can be used to determine data types, data frame shape, and nullity issues.   
+<img width="395" alt="df_info" src="https://user-images.githubusercontent.com/59813199/136681907-f481707b-7c01-490a-a53f-3e5dd4e845c4.png">
 
-
+If there are discrepancies between columns non-null counts, calling `df.isnull()` on a data frame, or any subset of that data frame, will return a data frame of the same size containing Boolean true or false values describing each entry's nullity.  
 
 #### Manipulating the Data Frame
 
