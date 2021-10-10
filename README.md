@@ -121,7 +121,7 @@ HTML file to a readable data frame using `pd.read_html(<filepath>)`
 <img width="300" alt="Screen Shot 2021-10-08 at 11 23 11 PM" src="https://user-images.githubusercontent.com/31682057/136646776-b40ddcf7-5bd5-4622-bbfe-b8b80c33c044.png">
 </p>
 
-CSV file to a DataFrame using `pd.read_csv(<filepath>)` (This is useful when aggregating with data from other filetypes or to use Pandas to preprocess data)
+CSV file to a DataFrame using `pd.read_csv(<filepath>)` (This is useful when aggregating with data from other file types or to use Pandas to preprocess data)
 
 | id      | name      | age |
 | :-------|:---------:| ---:|
