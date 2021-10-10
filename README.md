@@ -55,12 +55,26 @@ XML file to a readable data frame using `pd.read_xml(<filepath>)`
 
 ```
 
-<p float="left" align="center">
-  <img width="376" align="center" alt="Screen Shot 2021-10-08 at 11 16 31 PM" src="https://user-images.githubusercontent.com/31682057/136646564-f6a20b0b-5e11-4a09-94b4-60e3c5ca4a1b.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p float="left">
   <img width="280" alt="Screen Shot 2021-10-08 at 11 17 55 PM" src="https://user-images.githubusercontent.com/31682057/136646611-7522c99d-1862-4e8b-abda-d17adc36468a.png">
 </p>
 
 JSON file to a readable data frame using `pd.read_json(<filepath>)`
+
+```json
+[
+  {
+    "id": "A001",
+    "name" "Tom",
+    "math": 60,
+    "physics": 66,
+    "chemistry": 61
+  }, 
+  ...
+]
+
+```
+
 <p float="left" align="center">
   <img width="267" align="center" alt="Screen Shot 2021-10-08 at 11 20 05 PM" src="https://user-images.githubusercontent.com/31682057/136646692-058fb36e-f2f1-4da4-a65a-eaf9b9b3396f.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img width="300" alt="Screen Shot 2021-10-08 at 11 20 57 PM" src="https://user-images.githubusercontent.com/31682057/136646707-85bdd8f3-e009-470c-836c-5774653dec5c.png">
