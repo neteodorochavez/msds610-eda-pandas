@@ -195,4 +195,5 @@ The questions you pose here are not set in stone but they will be the motivation
 
 
 ### What's Next? 
-Reporting on developments of other Python libraries and also digging deeper into Panda's efficiency with `Big Data`.
+Reporting on developments of other Python libraries.
+Digging deeper into Panda's efficiency with `Big Data`.
