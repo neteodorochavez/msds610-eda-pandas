@@ -222,7 +222,7 @@ This type of plot is very popular in statistical analysis. For example, say you 
 </p>
 
 
-### What's Next? 
-Reporting on developments of other Python libraries.
+### Next Steps 
+Now that you have a clean DataFrame, you are now ready to perform formal modeling and analysis. 
 
-Digging deeper into Panda's efficiency with `Big Data`.
+Check out Python's `sci-kit learn` and `statsmodels` packages for useful information.
